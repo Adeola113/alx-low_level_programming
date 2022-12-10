@@ -1,8 +1,9 @@
 #include <stdio.h>
+/*betty style doc for function main goes there */
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0 (success)
+ *Return: Always 0 (success)
  */
 
 int main(void)
@@ -14,7 +15,7 @@ int main(void)
 		(c <= 'z') {
 			putchar(c);
 			c++;
-		}
+		}	
 	putchar('\n');
 	return (0);
 }
