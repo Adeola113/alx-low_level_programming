@@ -1,1 +1,1 @@
-Battery st
+pointers array and springs
