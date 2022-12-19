@@ -5,6 +5,7 @@
  * @str: input
  * Return: print
  */
+
 void puts2(char *str)
 
 {
@@ -16,13 +17,15 @@ void puts2(char *str)
 	{
 
 		if ((i % 2) == 0)
-			_putchar(str[1]);
+
+			_putchar(str[i]);
 
 		else
 
 			continue;
 
 	}
+
 	_putchar('\n');
 
 }
