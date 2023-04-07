@@ -4,7 +4,7 @@
 
 /**
  * hash_table_set - adds an element to the hash table
- * @nt: The hash table
+ * @ht: The hash table
  * @key: Thew key of the new element
  * @value: The value of the new element
  *
@@ -32,7 +32,7 @@ hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		free(tmp->value);
 		tmp->value = strdup(value);
-		return(1);
+		return (1);
 	}
 
 	/* Aadd new node if key not found */
