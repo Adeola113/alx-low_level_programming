@@ -1,4 +1,4 @@
-#include "has_tables.h"
+#include "hash_tables.h"
 
 /**
  * key_index - function that generates a distributed index
